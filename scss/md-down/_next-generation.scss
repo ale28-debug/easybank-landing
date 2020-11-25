@@ -1,0 +1,77 @@
+#next-generation{
+    overflow: hidden;
+    max-width: 100%;
+    background: $first-last-color;
+
+    h2, p{
+        font-family: $my-font;
+    }
+
+    h2{
+        font-size: 30px;
+        font-weight: 400;
+    }
+
+    p{
+        font-size: 18px;
+        color: $navbar-copyright;
+        margin: 0 0 10% 0;
+    }
+
+    .btn{
+        text-decoration: none;
+        margin: auto;
+        font-family: $my-font;
+        color: white;
+        padding: 12px;
+        border-radius: 40px;
+        @include background(90deg, $first-color-btn, $second-color-btn);
+    }
+
+    .row{
+        padding: 0 0 15% 0;
+        display: flex;
+    }
+
+    .first-column{
+       order: 2;
+       width: 50%;
+       margin: auto;
+    }
+
+    .second-column{
+        position: relative;
+        padding: 0;
+        height: 630px;
+        
+        
+
+        img{
+            &:first-child{
+                display: none;
+                position: absolute;
+                top: -10em;
+                right: -18em;
+            }
+
+            &:nth-child(2){
+                width: 100%;
+                height: 100%;
+                display: block;
+                margin: auto;
+            }
+
+            &:last-child{
+                position: absolute;
+                top: -9em;
+                left: 15em;
+                width: 600px;
+            }
+            
+        }
+
+    
+    }
+
+
+}

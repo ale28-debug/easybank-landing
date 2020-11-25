@@ -1,0 +1,32 @@
+#choose{
+    padding: 90px;
+    background: $second-section-color;
+
+    h2, h3, p{
+        font-family: $my-font;
+    }
+
+    h2{
+        font-size: 30px;
+        font-weight: 400;
+    }
+
+    h3{
+        font-weight: 400;
+    }
+
+    p{
+        font-size: 18px;
+        color: $navbar-copyright;
+    }
+
+    .topics{
+        display: flex;
+        justify-content: center;
+        margin: 8% 0 0 0;
+
+        .second, .third, .fourth{
+            padding: 0 0 0 5%;
+        }
+    }
+}

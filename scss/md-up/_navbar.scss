@@ -1,0 +1,35 @@
+#navbar{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    background: #fff;
+    z-index: 2;
+    position: fixed;
+    width: 100%;
+
+    ul{
+        margin: 0 auto;
+
+        li{
+            list-style: none;
+            display: inline-block;
+            padding: 10px;
+
+            a{
+                text-decoration: none;
+                font-family: $my-font;
+                color: $navbar-copyright;
+            }
+        }
+    }
+
+    .btn{
+        text-decoration: none;
+        margin: auto;
+        font-family: $my-font;
+        color: white;
+        padding: 12px;
+        border-radius: 40px;
+        @include background(90deg, $first-color-btn, $second-color-btn);
+    }
+}

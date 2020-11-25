@@ -1,0 +1,3 @@
+@mixin background($deg, $color-1, $color-2){
+    background: linear-gradient($deg, $color-1, $color-2);
+}

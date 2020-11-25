@@ -1,0 +1,17 @@
+#navbar{
+    padding: 20px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    
+    .logo-container{
+        width: 20%;
+    }
+
+    ul, .btn{
+        display: none;
+    }
+}

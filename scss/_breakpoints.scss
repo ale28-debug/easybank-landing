@@ -1,3 +1,26 @@
 @import 'default/base';
+@import 'abstracts/base';
 
-@import '../bootstrap/scss/bootstrap';
+
+// Bootstrap
+@import "../bootstrap/scss/functions";
+@import "../bootstrap/scss/variables";
+@import "../bootstrap/scss/mixins";
+@import "../bootstrap/scss/card";
+@import "../bootstrap/scss/bootstrap-grid";
+
+
+/* Per schermi mobile, minori di 375px */
+@media screen and (max-width: $sm-breakpoint){
+    @import 'sm-down/base';
+}
+
+/* Per schermi tablet, maggiori di 375px e fino a 1439px */
+@media screen and (min-width: $sm-breakpoint) and (max-width: $md-breakpoint){
+    @import 'md-down/base';
+}
+
+/* Per schermi desktop, maggiori di 1440px */
+@media screen and (min-width: $md-breakpoint){
+    @import 'md-up/base';
+}

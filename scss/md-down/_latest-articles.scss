@@ -1,0 +1,46 @@
+#latest-articles{
+    padding: 50px;
+    background: $first-last-color;
+
+    h2{
+        font-family: $my-font;
+        font-weight: 400;
+        font-size: 30px;
+    }
+
+    .latest-articles{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 60px 0 0 0;
+
+        .card{
+            border: none;
+            margin: 5% 2% 0 0;
+            
+            img{
+                height: 215px;
+            }
+
+            
+
+            .card-caption{
+                margin: 0 0 0 0;
+            }
+
+            .card-caption, .card-title, .card-text{
+                font-family: $my-font;
+            }
+
+            .card-title{
+                font-size: 20px;
+                font-weight: 400;
+            }
+
+            .card-caption, .card-text{
+                color: $navbar-copyright;
+                font-weight: 400;
+            }
+        }
+    }
+}

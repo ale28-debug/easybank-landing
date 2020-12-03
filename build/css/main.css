@@ -2489,6 +2489,30 @@ html {
   #navbar ul, #navbar .btn {
     display: none;
   }
+  .mobile-navigation {
+    display: none;
+    width: 90%;
+    height: 280px;
+    padding: 50px 0 0 0;
+    background: #fff;
+    position: absolute;
+    z-index: 2;
+    left: 15px;
+    top: 6em;
+    border-radius: 5px;
+  }
+  .mobile-navigation ul {
+    text-align: center;
+  }
+  .mobile-navigation ul li {
+    list-style: none;
+    padding: 0 0 5px 0;
+  }
+  .mobile-navigation ul li a {
+    text-decoration: none;
+    font-family: "Public Sans", sans-serif;
+    color: #000;
+  }
   #next-generation {
     overflow: hidden;
     max-width: 100%;
@@ -2697,10 +2721,35 @@ html {
   #navbar ul, #navbar .btn {
     display: none;
   }
+  .mobile-navigation {
+    display: none;
+    width: 33.3333%;
+    height: 280px;
+    padding: 50px 0 0 0;
+    background: #fff;
+    position: absolute;
+    z-index: 2;
+    left: 22em;
+    bottom: 30em;
+    border-radius: 5px;
+  }
+  .mobile-navigation ul {
+    text-align: center;
+  }
+  .mobile-navigation ul li {
+    list-style: none;
+    padding: 0 0 5px 0;
+  }
+  .mobile-navigation ul li a {
+    text-decoration: none;
+    font-family: "Public Sans", sans-serif;
+    color: #000;
+  }
   #next-generation {
     overflow: hidden;
     max-width: 100%;
     background: #fafafa;
+    position: relative;
   }
   #next-generation h2, #next-generation p {
     font-family: "Public Sans", sans-serif;
@@ -2914,6 +2963,9 @@ html {
     padding: 12px;
     border-radius: 40px;
     background: linear-gradient(90deg, #31d35c, #2bb7da);
+  }
+  .mobile-navigation {
+    display: none;
   }
   #next-generation {
     overflow: hidden;

@@ -1,0 +1,28 @@
+.mobile-navigation{
+    display: none;
+    width: 33.3333%;
+    height: 280px;
+    padding: 50px 0 0 0;
+    background: #fff;
+    position: absolute;
+    z-index: 2;
+    left: 22em;
+    bottom: 30em;
+    border-radius: 5px;
+
+
+    ul{
+        text-align: center;
+
+        li{
+            list-style: none;
+            padding: 0 0 5px 0;
+
+            a{
+                text-decoration: none;
+                font-family: $my-font;
+                color: #000;
+            }
+        }
+    }
+}
